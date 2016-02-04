@@ -1,0 +1,10 @@
+{
+    "title": "CNN Hapi",
+    "source": "./",
+    "destination": "./docs",
+    "excludes": ["docs", "node_modules"],
+    "access": ["public", "protected", "private"],
+    "manual": {
+        "changelog": "./CHANGELOG.md"
+    }
+}

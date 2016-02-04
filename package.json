@@ -1,0 +1,36 @@
+{
+  "name": "cnn-metrics",
+  "version": "0.1.0",
+  "description": "CNN Metrics",
+  "main": "lib/metrics.js",
+  "scripts": {
+    "generate-changelog": "changelog-maker --group",
+    "generate-docs": "rm -rf docs && esdoc -c .esdoc.json",
+    "test": "eslint *.js **/*.js && test/validate-json-files.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CNN-Labs/cnn-metrics"
+  },
+  "bugs": {
+    "url": "https://github.com/CNN-Labs/cnn-metrics/issues"
+  },
+  "homepage": "https://github.com/CNN-Labs/cnn-metrics",
+  "engines": {
+    "node": "4.2.6"
+  },
+  "dependencies": {
+    "debug": "2.2.0",
+    "lodash": "4.2.1",
+    "metrics": "0.1.9",
+    "nconf": "0.8.4"
+  },
+  "devDependencies": {
+    "changelog-maker": "2.2.0",
+    "esdoc": "0.4.3",
+    "eslint": "1.10.3",
+    "jq-cli-wrapper": "0.3.0",
+    "jsonlint": "1.6.2"
+  },
+  "license": "ISC"
+}
