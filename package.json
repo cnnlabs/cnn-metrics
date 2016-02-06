@@ -1,6 +1,6 @@
 {
   "name": "cnn-metrics",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CNN Metrics",
   "main": "lib/metrics.js",
   "scripts": {
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CNN-Labs/cnn-metrics"
+    "url": "https://github.com/cnnlabs/cnn-metrics"
   },
   "bugs": {
-    "url": "https://github.com/CNN-Labs/cnn-metrics/issues"
+    "url": "https://github.com/cnnlabs/cnn-metrics/issues"
   },
-  "homepage": "https://github.com/CNN-Labs/cnn-metrics",
+  "homepage": "https://github.com/cnnlabs/cnn-metrics",
   "engines": {
     "node": "4.2.6"
   },
