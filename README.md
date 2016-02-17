@@ -2,7 +2,8 @@
 
 ## Requirements
 
-[Node 4.2.6+](https://npmjs.org)
+A current LTS or Stable version of [Node.js](https://nodejs.org).  We recommend
+using [nvm](https://github.com/creationix/nvm#readme) to manage node versions.
 
 
 ## Installation
@@ -14,16 +15,15 @@ $ npm install
 
 ## Usage
 
-TBD
+See the [`example/`](./example) directory.
 
 
-## Contributing
+## Environment variables
 
-If you would like to contribute, just fork and submit a pull request.  Please
-review the [contributing guidelines](./CONTRIBUTING.md)
-first.
+This package requires a few environment variable to be set.
 
+- `NODE_ENV`:
 
-## Project Owner
+- `ENVIRONMENT`:
 
-TBD is the current Project Owner of this repository.
+- `HOSTEDGRAPHITE_APIKEY`:
