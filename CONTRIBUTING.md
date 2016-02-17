@@ -23,9 +23,9 @@ This document will guide you though the contribution process.
 Fork the project and check out your copy locally.
 
 ```shell
-$ git clone git@github.com:your-github-username/repo-name.git
-$ cd repo-name
-$ git remote add upstream git@github.com:TurnerBroadcasting/repo-name.git
+$ git clone git@github.com:ORG_NAME/REPO_NAME.git
+$ cd REPO_NAME
+$ git remote add upstream git@github.com:ORG_NAME/REPO_NAME.git
 ```
 
 
@@ -51,7 +51,7 @@ Make sure git knows your _correct_ name and email address:
 
 ```shell
 $ git config --global user.name "Your Name"
-$ git config --global user.email "your.email@turner.com"
+$ git config --global user.email "your.email@somewhere.com"
 ```
 
 A commit log should describe what changed and why.  Follow these guidelines when
@@ -90,7 +90,7 @@ The body can be several paragraphs.  Try to limit the line length to around 72
 characters or so.
 
 Fixes: #12
-Reviewed-By: Your Name <your.email@turner.com>
+Reviewed-By: Your Name <your.email@somewhere.com>
 ```
 
 
@@ -118,7 +118,7 @@ on how to run the tests.
 $ git push origin my-feature-branch
 ```
 
-Go to https://github.com/yourusername/repo-name and select your feature
+Go to https://github.com/yourusername/hapi-boilerplate and select your feature
 branch.  Click the 'Pull Request' button and fill out the form.
 
 Pull requests are usually reviewed within a few days.  If there are comments to

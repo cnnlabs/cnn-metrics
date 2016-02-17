@@ -3,23 +3,28 @@
   "version": "0.2.1",
   "description": "CNN Metrics",
   "main": "lib/metrics.js",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
   "scripts": {
+    "generate-authors": "tools/generate-authors.sh",
     "generate-changelog": "changelog-maker --group",
     "generate-docs": "rm -rf docs && esdoc -c .esdoc.json",
-    "test": "eslint *.js **/*.js && test/validate-json-files.sh",
+    "test": "eslint . && test/validate-json-files.sh",
     "update-apply": "ncu -u",
     "update-check": "ncu"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cnnlabs/cnn-metrics"
+    "url": "git+https://github.com/cnnlabs/cnn-metrics.git"
   },
   "bugs": {
     "url": "https://github.com/cnnlabs/cnn-metrics/issues"
   },
-  "homepage": "https://github.com/cnnlabs/cnn-metrics",
+  "homepage": "https://github.com/cnnlabs/cnn-metrics#readme",
   "engines": {
-    "node": "4.2.6"
+    "node": ">=4.3.1"
   },
   "dependencies": {
     "debug": "2.2.0",
@@ -32,12 +37,13 @@
     "esdoc": "0.4.5",
     "eslint": "2.1.0",
     "jq-cli-wrapper": "0.3.0",
-    "jsonlint": "1.6.2"
+    "jsonlint": "1.6.2",
+    "npm-check-updates": "2.5.8"
   },
   "keywords": [
     "cnn",
     "cnnlabs",
     "metrics"
   ],
-  "license": "ISC"
+  "license": "MIT"
 }

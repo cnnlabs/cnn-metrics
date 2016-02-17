@@ -1,5 +1,6 @@
 # CNN Metrics
 
+
 ## Requirements
 
 A current LTS or Stable version of [Node.js](https://nodejs.org).  We recommend
@@ -22,8 +23,14 @@ See the [`example/`](./example) directory.
 
 This package requires a few environment variable to be set.
 
-- `NODE_ENV`:
+- `NODE_ENV`
 
-- `ENVIRONMENT`:
+- `ENVIRONMENT`
 
-- `HOSTEDGRAPHITE_APIKEY`:
+- `HOSTEDGRAPHITE_APIKEY`
+
+- `NODE_APP_INSTANCE`
+
+- `REGION`
+
+- `DEBUGMETRICS`

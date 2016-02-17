@@ -13,12 +13,12 @@
 EXIT_CODE=0
 JSON_FILES=(`find . \
                   -name "*.json"\
+                  -not -path "./.c9/*"\
                   -not -path "./node_modules/*"\
-                  -not -path "./test/*"\
-                  -not -path "./ruby/*"\
             `)
 
 for file in "${JSON_FILES[@]}"; do
+    echo "json validating: ${file}"
     node_modules/.bin/jsonlint "${file}" -q
     if [ $? -eq 1 ]; then
         echo "${file}"

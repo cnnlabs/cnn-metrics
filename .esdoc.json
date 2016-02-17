@@ -1,10 +1,12 @@
 {
-    "title": "CNN Hapi",
+    "title": "CNN Metrics",
     "source": "./",
     "destination": "./docs",
     "excludes": ["docs", "node_modules"],
     "access": ["public", "protected", "private"],
+    "coverage": false,
+    "includeSource": false,
     "manual": {
-        "changelog": "./CHANGELOG.md"
+        "changelog": ["./CHANGELOG.md"]
     }
 }
