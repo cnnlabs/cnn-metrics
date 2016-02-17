@@ -1,6 +1,6 @@
 {
   "name": "cnn-metrics",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CNN Metrics",
   "main": "lib/metrics.js",
   "scripts": {
@@ -34,5 +34,10 @@
     "jq-cli-wrapper": "0.3.0",
     "jsonlint": "1.6.2"
   },
+  "keywords": [
+    "cnn",
+    "cnnlabs",
+    "metrics"
+  ],
   "license": "ISC"
 }
