@@ -6,7 +6,9 @@
   "scripts": {
     "generate-changelog": "changelog-maker --group",
     "generate-docs": "rm -rf docs && esdoc -c .esdoc.json",
-    "test": "eslint *.js **/*.js && test/validate-json-files.sh"
+    "test": "eslint *.js **/*.js && test/validate-json-files.sh",
+    "update-apply": "ncu -u",
+    "update-check": "ncu"
   },
   "repository": {
     "type": "git",
@@ -21,14 +23,14 @@
   },
   "dependencies": {
     "debug": "2.2.0",
-    "lodash": "4.2.1",
+    "lodash": "4.5.0",
     "metrics": "0.1.9",
     "nconf": "0.8.4"
   },
   "devDependencies": {
     "changelog-maker": "2.2.0",
-    "esdoc": "0.4.3",
-    "eslint": "1.10.3",
+    "esdoc": "0.4.5",
+    "eslint": "2.1.0",
     "jq-cli-wrapper": "0.3.0",
     "jsonlint": "1.6.2"
   },
