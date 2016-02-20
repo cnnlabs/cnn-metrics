@@ -1,0 +1,7 @@
+{
+  "name": "cnn-metrics-demo-app",
+  "version": "0.1.0",
+  "description": "This is a demo",
+  "main": "app.js",
+  "license": "MIT"
+}
