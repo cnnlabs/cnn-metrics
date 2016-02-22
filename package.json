@@ -1,6 +1,6 @@
 {
   "name": "cnn-metrics",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "CNN Metrics",
   "main": "lib/metrics.js",
   "directories": {
