@@ -34,3 +34,11 @@ This package requires a few environment variable to be set.
 - `REGION`
 
 - `DEBUGMETRICS`
+
+
+
+[![build](https://img.shields.io/travis/cnnlabs/cnn-metrics/master.svg?style=flat-square)](https://travis-ci.org/cnnlabs/cnn-metrics)
+![node](https://img.shields.io/node/v/cnn-metrics.svg?style=flat-square)
+[![npm](https://img.shields.io/npm/v/cnn-metrics.svg?style=flat-square)](https://www.npmjs.com/package/cnn-metrics)
+[![npm-downloads](https://img.shields.io/npm/dm/cnn-metrics.svg?style=flat-square)](https://www.npmjs.com/package/cnn-metrics)
+[![dependency-status](https://gemnasium.com/cnnlabs/cnn-metrics.svg)](https://gemnasium.com/cnnlabs/cnn-metrics)
