@@ -16,7 +16,13 @@ $ npm install
 
 ## Usage
 
-See the [`example/`](./example) directory.
+See the [`example/`](./example) directory.  You can start up the example app
+with the following.  Supply your own [Hosted Graphite](https://www.hostedgraphite.com)
+key.
+
+```shell
+$ NODE_ENV=production ENVIRONMENT=production HOSTEDGRAPHITE_APIKEY=[valid-key] DEBUG=* DEBUGMETRICS=1 PORT=5000 node example/app.js
+```
 
 
 ## Environment variables
