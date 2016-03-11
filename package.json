@@ -4,10 +4,12 @@
   "description": "CNN Metrics",
   "main": "lib/metrics.js",
   "directories": {
+    "example": "./example",
     "lib": "./lib",
     "test": "./test"
   },
   "scripts": {
+    "run-example": "node example/app.js",
     "generate-authors": "tools/generate-authors.sh",
     "generate-changelog": "changelog-maker --group",
     "generate-docs": "rm -rf docs && esdoc -c .esdoc.json",
