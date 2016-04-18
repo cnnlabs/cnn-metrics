@@ -1,5 +1,24 @@
 # CNN Metrics Changelog
 
+## 2016-04-18, Version 0.3.8, @adslaton
+
+### Notable changes
+
+- Update dependencies
+
+
+### Known issues
+
+See https://github.com/TurnerBroadcasting/cnn-metrics/labels/defect for complete and
+current list of known issues.
+
+
+### Commits
+
+* [[`0fe32bf7cd`](https://github.com/cnnlabs/cnn-metrics/commit/0fe32bf7cd)] - Update latest dependency versions (A.D. Slaton) [#12](https://github.com/cnnlabs/cnn-metrics/pull/12)
+* [[`27e8e3dd4f`](https://github.com/cnnlabs/cnn-metrics/commit/27e8e3dd4f)] - Moved build flags to the top of the readme (A.D. Slaton) [#12](https://github.com/cnnlabs/cnn-metrics/pull/12)
+
+
 ## 2016-02-23, Version 0.3.7, @jamsyoung
 
 ### Notable changes
