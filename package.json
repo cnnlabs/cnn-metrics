@@ -28,17 +28,17 @@
   },
   "dependencies": {
     "debug": "2.2.0",
-    "lodash": "4.11.1",
+    "lodash": "4.12.0",
     "metrics": "0.1.9",
     "nconf": "0.8.4"
   },
   "devDependencies": {
-    "changelog-maker": "2.2.2",
-    "esdoc": "0.4.6",
-    "eslint": "2.7.0",
+    "changelog-maker": "2.2.3",
+    "esdoc": "0.4.7",
+    "eslint": "2.10.2",
     "jq-cli-wrapper": "0.3.0",
     "jsonlint": "1.6.2",
-    "npm-check-updates": "2.6.2"
+    "npm-check-updates": "2.6.5"
   },
   "keywords": [
     "cnn",
