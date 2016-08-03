@@ -1,6 +1,6 @@
 # CNN Metrics Changelog
 
-## 2016-05-17, Version 0.3.10, @adslaton
+## 2016-08-03, Version 0.3.10, @adslaton
 
 ### Notable changes
 
