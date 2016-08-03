@@ -1,6 +1,6 @@
 {
   "name": "cnn-metrics",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "description": "CNN Metrics",
   "main": "lib/metrics.js",
   "directories": {
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "debug": "2.2.0",
-    "lodash": "4.12.0",
+    "lodash": "4.14.1",
     "metrics": "0.1.9",
     "nconf": "0.8.4"
   },
