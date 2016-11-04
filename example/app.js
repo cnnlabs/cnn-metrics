@@ -3,7 +3,7 @@
 const Metrics = require('../lib/metrics');
 
 Metrics.init({
-    appName: 'cnn_dynaimage_api',
+    appName: 'dynaimage_api',
     project: 'dynaimage',
     flushEvery: 1000 * 2,
     plugins: [
