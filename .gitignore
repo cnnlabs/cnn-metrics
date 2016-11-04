@@ -5,3 +5,5 @@ npm-debug.log
 *.conf
 *.idea
 .idea/
+.DS_Store
+lib/.DS_Store
