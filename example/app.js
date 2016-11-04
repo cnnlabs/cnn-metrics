@@ -3,7 +3,8 @@
 const Metrics = require('../lib/metrics');
 
 Metrics.init({
-    app: 'example',
+    appName: 'cnn_dynaimage_api',
+    project: 'dynaimage',
     flushEvery: 1000 * 2,
     plugins: [
         'customCounters'
