@@ -1,5 +1,23 @@
 # CNN Metrics Changelog
 
+## 2016-12-09, Version 0.4.0, @adslaton
+
+### Notable changes
+
+- Update dependencies
+
+### Known issues
+
+See https://github.com/TurnerBroadcasting/cnn-metrics/labels/defect for complete and
+current list of known issues.
+
+
+### Commits
+
+* [[`2fc6111caa`](https://github.com/cnnlabs/cnn-metrics/commit/2fc6111caa)] - Merge pull request #15 from cnnlabs/bugfix/graceful-shutdown (A.D. Slaton)
+* [[`fadf81af93`](https://github.com/cnnlabs/cnn-metrics/commit/fadf81af93)] - Unref timers to allow graceful shutdown (Ian Patton)
+* [[`4209db9974`](https://github.com/cnnlabs/cnn-metrics/commit/4209db9974)] - correcting changelog date (A.D. Slaton)
+
 ## 2016-08-03, Version 0.3.10, @adslaton
 
 ### Notable changes
