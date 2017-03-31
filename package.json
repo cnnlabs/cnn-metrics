@@ -1,6 +1,6 @@
 {
   "name": "cnn-metrics",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "CNN Metrics",
   "main": "lib/metrics.js",
   "directories": {
@@ -27,18 +27,19 @@
     "node": ">=4.3.1"
   },
   "dependencies": {
-    "debug": "2.2.0",
-    "lodash": "4.14.1",
-    "metrics": "0.1.9",
+    "debug": "2.6.3",
+    "dogapi": "2.6.1",
+    "lodash": "4.17.4",
+    "metrics": "0.1.11",
     "nconf": "0.8.4"
   },
   "devDependencies": {
-    "changelog-maker": "2.2.3",
-    "esdoc": "0.4.7",
-    "eslint": "2.10.2",
-    "jq-cli-wrapper": "0.3.0",
+    "changelog-maker": "2.2.5",
+    "esdoc": "0.5.2",
+    "eslint": "3.18.0",
+    "jq-cli-wrapper": "0.4.0",
     "jsonlint": "1.6.2",
-    "npm-check-updates": "2.6.5"
+    "npm-check-updates": "2.10.4"
   },
   "keywords": [
     "cnn",

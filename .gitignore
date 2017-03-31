@@ -2,4 +2,9 @@
 docs
 node_modules
 npm-debug.log
+*.bak
 *.conf
+*.idea
+.idea/
+.DS_Store
+lib/.DS_Store
