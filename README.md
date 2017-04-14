@@ -24,10 +24,10 @@ $ npm install
 
 See the [`example/`](./example) directory.  You can start up the example app
 with the following.  Supply your own [Hosted Graphite](https://www.hostedgraphite.com)
-key.
+key or [DataDog](https://datadog.com) keys.
 
 ```shell
-$ NODE_ENV=production ENVIRONMENT=production HOSTEDGRAPHITE_APIKEY=[valid-key] DEBUG=* DEBUGMETRICS=1 PORT=5000 node example/app.js
+$ NODE_ENV=production ENABLE_MTERICS=true HOSTEDGRAPHITE_APIKEY=[valid-key] DEBUG=* DEBUGMETRICS=1 PORT=5000 node example/app.js
 ```
 
 
@@ -39,10 +39,13 @@ This package requires a few environment variable to be set.
 
 - `ENVIRONMENT`
 
-- `HOSTEDGRAPHITE_APIKEY`
+- `METRICS_ENABLED`
+
+- `HOSTEDGRAPHITE_APIKEY` -or- `DATADOG_APIKEY` and `DATADOG_APPKEY`
 
 - `NODE_APP_INSTANCE`
 
-- `REGION`
+- `METRICS_INTERVAL`
 
 - `DEBUGMETRICS`
+
