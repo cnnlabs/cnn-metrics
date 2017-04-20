@@ -3,7 +3,9 @@
 const Metrics = require('../lib/metrics');
 
 Metrics.init({
-    app: 'example',
+    appName: 'example',
+    appType: 'api',  // or 'fe'
+    customer: 'acme',
     flushEvery: 1000 * 2,
     plugins: [
         'customCounters'
