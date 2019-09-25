@@ -27,19 +27,19 @@
     "node": ">=4.3.1"
   },
   "dependencies": {
-    "debug": "2.6.3",
-    "dogapi": "2.6.1",
-    "lodash": "4.17.4",
-    "metrics": "0.1.11",
-    "nconf": "0.8.4"
+    "debug": "4.1.1",
+    "dogapi": "2.8.3",
+    "lodash": "4.17.15",
+    "metrics": "0.1.21",
+    "nconf": "0.10.0"
   },
   "devDependencies": {
-    "changelog-maker": "2.2.5",
+    "changelog-maker": "2.3.0",
     "esdoc": "0.5.2",
     "eslint": "3.18.0",
-    "jq-cli-wrapper": "0.4.0",
-    "jsonlint": "1.6.2",
-    "npm-check-updates": "2.10.4"
+    "jq-cli-wrapper": "1.6.1",
+    "jsonlint": "1.6.3",
+    "npm-check-updates": "3.1.23"
   },
   "keywords": [
     "cnn",
