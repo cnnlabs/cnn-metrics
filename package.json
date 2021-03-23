@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "debug": "2.6.3",
-    "dogapi": "2.6.1",
+    "dogapi": "2.8.4",
     "lodash": "4.17.4",
     "metrics": "0.1.11",
     "nconf": "0.8.4"
